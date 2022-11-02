@@ -1,0 +1,126 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #0b0e10;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Alegreya', serif;
+}
+
+#header {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-color: #0b0e10;
+    opacity: 1;
+    overflow: hidden;
+    }
+#pagetitle {
+    font-family: 'Montserrat', serif;
+    font-size: 55px;
+    color: #e8d768;
+    text-align: center;
+    
+    
+}
+#main {
+    height: 937px;
+    
+}
+
+* {box-sizing:border-box} 
+.slideshow-container {
+  max-width: 80px;
+  max-height: 160px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px; 
+}  
+
+.ArticleTitle{
+  color: #fad935;   
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.Article{
+color:rgb(0, 0, 0);
+padding-top: 2px;
+font-family: 'Montserrat';
+font-size: 25px;
+text-align: center;
+}
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+   width: 69%;
+   text-align:center;
+}       
+
+.imageArticleCenter{
+    display: inline;
+ margin-left: auto;
+  margin-right: auto;
+   width: 25%;
+   text-align:center;
+}
+.imageArticleLeft{
+    float: left;
+    display: inline;
+    width: 25%;
+  margin-right: 10%;
+}
+.imageArticleRight{
+    float: right;
+    display: inline;
+ width: 25%;
+margin-left: 10%;
+padding-left: 0 ;
+ 
+}
+
+#article {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(16, 139, 177, 0.856);
+    border-radius: 20px;
+    border-color: #0051ff;
+    float: left;
+    border-style: inset;
+    border-width: 5px;
+    ;
+}
+#banner {
+    color: #ffe045;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 56%;
+    height: 750px;
+    float: left;
+    background-color: #5e6671;
+    border-radius: 20px;
+    border-color: #000000;
+    border-style: inset;
+    border-width: 5px;
+    align-self: auto;
+}
+
+.articleImage{
+    text-align: center;
+}
